@@ -59,5 +59,5 @@ To run these scripts, you need **R** and the following packages:
 4.  **Run the scripts** in chronological order to observe the evolution of the FTSE MIB efficiency.
 
 ---
-**Author:** [Damiano Losa]  
+**Author:** Damiano Losa  
 **Field:** Quantitative Finance / Portfolio Management
