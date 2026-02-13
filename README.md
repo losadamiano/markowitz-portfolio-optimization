@@ -51,7 +51,6 @@ The distribution of weights in the **Tangency Portfolio** shows how the optimal 
 | ![Weights P1](thesis/weights_short_pre_covid.png) | ![Weights P2](thesis/weights_short_during_covid.png) | ![Weights P3](thesis/weights_short_post_covid_war_inflation.png) |
 | *Balanced allocation* | *Crisis-driven shift* | *Inflation-adjusted weights* |
 
-![Comparison Constraints](thesis/confronto_vincoli.png)
 ---
 
 ## Results & Conclusions
