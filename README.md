@@ -33,12 +33,11 @@ The analysis is divided into three R scripts, each covering a specific market ph
 
 ## Results & Conclusions
 
-The empirical analysis conducted highlights several critical findings:
+This study demonstrates that the practical effectiveness of the Markowitz model is fundamentally dictated by the non-stationary nature of financial markets. Through the comparative analysis of three distinct economic regimes, it is evident that expected returns, volatility, and correlations are dynamic entities that evolve significantly in response to macroeconomic shifts. Consequently, any static approach to portfolio optimization is destined to yield sub-optimal results, requiring instead a continuous recalibration of input parameters.
 
-* **Impact of Constraints**: The **Long-Only frontier** is consistently more restrictive and "internal" compared to the unlimited short-selling frontier, as constraints limit diversification opportunities.
-* **Dynamic Parameters**: The study confirms that the MPT is a vital framework for rational capital allocation, but its effectiveness depends on recognizing the **dynamism of market parameters** (covariance matrices) across different periods.
-* **Diversification**: Results reiterate that strategic asset combination can mitigate overall risk without necessarily compromising expected returns, provided assets are not perfectly correlated.
-* **Robustness**: While the theory has limitations (such as the assumption of normal returns), it remains an indispensable tool for identifying **robust portfolios** in evolving financial environments.
+A critical finding concerns the impact of investment constraints. While long-only portfolios offer operational simplicity, they inherently limit the diversification potential, especially during high-volatility periods like the one observed in the second interval of this study. The inclusion of short-selling strategies proved capable of significantly expanding the efficient frontier, shifting the risk-return trade-off toward higher returns and lower risk, and transforming potential losses into growth opportunities even in adverse market conditions.
+
+Ultimately, while the Markowitz framework is not a predictive tool for future prices, it remains an indispensable methodology for rational capital allocation. It provides a rigorous discipline for managing the risk-return trade-off and strategically distributing risk contributions. To remain effective in modern finance, the model must be applied with a critical awareness of market dynamism and the structural limitations imposed by investment constraints, ensuring that portfolios are not just theoretically efficient but robust enough to withstand the evolving reality of global markets.
 
 ---
 
