@@ -16,9 +16,9 @@ The core of this research is the search for an optimal balance between expected 
 
 The analysis is divided into three R scripts, each covering a specific market phase:
 
-1. **`Pre_COVID_Analysis.R`**: Baseline market conditions prior to the 2020 pandemic.
-2. **`COVID_Period_Analysis.R`**: Impact of the global pandemic on volatility and asset correlations.
-3. **`Post_War_Inflation_Analysis.R`**: Recent dynamics influenced by geopolitical conflicts and rising inflation.
+1. **`pre_COVID_analysis.R`**: Baseline market conditions prior to the 2020 pandemic.
+2. **`COVID_period_analysis.R`**: Impact of the global pandemic on volatility and asset correlations.
+3. **`post_COVID_analysis.R`**: Recent dynamics influenced by geopolitical conflicts and rising inflation.
 
 ---
 
