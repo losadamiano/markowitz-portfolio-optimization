@@ -31,6 +31,26 @@ The analysis is divided into three R scripts, each covering a specific market ph
 
 ---
 
+## Visual Analysis
+
+
+The following charts illustrate the shift in the **Efficient Frontier** across different market regimes. 
+
+### Pre-COVID vs COVID-19 Impact
+Comparing the baseline stability with the pandemic crash, we observe a significant contraction of the feasible set and a shift in the Tangency Portfolio.
+
+![Efficient Frontier Pre-COVID](thesis/frontier_short_pre_covid.png)
+*Figure 1: Efficient Frontier during the stable regime.*
+
+![Efficient Frontier COVID](thesis/!frontier_short_during_covid.png)
+*Figure 2: The "depressed" frontier during the 2020-2021 market turbulence.*
+
+### Long-Only vs. Short-Selling
+The analysis highlights how lifting the weight constraints (allowing short selling) expands the frontier, offering better risk-adjusted returns.
+
+![Comparison Constraints](thesis/confronto_vincoli.png)
+---
+
 ## Results & Conclusions
 
 This study demonstrates that the practical effectiveness of the Markowitz model is fundamentally dictated by the non-stationary nature of financial markets. Through the comparative analysis of three distinct economic regimes, it is evident that expected returns, volatility, and correlations are dynamic entities that evolve significantly in response to macroeconomic shifts. Consequently, any static approach to portfolio optimization is destined to yield sub-optimal results, requiring instead a continuous recalibration of input parameters.
