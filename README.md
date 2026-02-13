@@ -33,20 +33,23 @@ The analysis is divided into three R scripts, each covering a specific market ph
 
 ## Visual Analysis
 
+The following analysis illustrates the evolution of the **Efficient Frontier** and the dynamic shift in **Asset Allocation** across different market regimes.
 
-The following charts illustrate the shift in the **Efficient Frontier** across different market regimes. 
+### Efficient Frontiers Comparison
+The comparison highlights how market stress (COVID-19) "depresses" the frontier and how the removal of short-selling constraints expands investment opportunities.
 
-### Pre-COVID vs COVID-19 Impact
-Comparing the baseline stability with the pandemic crash, we observe a significant contraction of the feasible set and a shift in the Tangency Portfolio.
+| Pre-COVID (Stability) | COVID-19 (Crisis) | Post-War (Recovery) |
+|:---:|:---:|:---:|
+| ![Frontier P1](thesis/frontier_short_pre_covid.png) | ![Frontier P2](thesis/frontier_short_during_covid.png) | ![Frontier P3](thesis/frontier_short_post_covid_war_inflation.png) |
+| *Stable trade-off* | *Depressed frontier* | *Increased returns* |
 
-![Efficient Frontier Pre-COVID](thesis/frontier_short_pre_covid.png)
-*Figure 1: Efficient Frontier during the stable regime.*
+### Portfolio Weights & Asset Allocation
+The distribution of weights in the **Tangency Portfolio** shows how the optimal selection of FTSE MIB stocks changes. During turbulence, the model shifts capital toward assets with lower correlation or higher resilience.
 
-![Efficient Frontier COVID](thesis/!frontier_short_during_covid.png)
-*Figure 2: The "depressed" frontier during the 2020-2021 market turbulence.*
-
-### Long-Only vs. Short-Selling
-The analysis highlights how lifting the weight constraints (allowing short selling) expands the frontier, offering better risk-adjusted returns.
+| Weights (Pre-COVID) | Weights (COVID) | Weights (Post-War) |
+|:---:|:---:|:---:|
+| ![Weights P1](thesis/weights_short_pre_covid.png) | ![Weights P2](thesis/weights_short_during_covid.png) | ![Weights P3](thesis/weights_short_post_covid_war_inflation.png) |
+| *Balanced allocation* | *Crisis-driven shift* | *Inflation-adjusted weights* |
 
 ![Comparison Constraints](thesis/confronto_vincoli.png)
 ---
